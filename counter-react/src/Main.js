@@ -7,7 +7,13 @@ class Main  extends Component {
     }
     render() { 
         return (
-            <h1>This is main component</h1>
+            <div>
+                <h1>React Counter</h1>
+                <h1>0</h1>
+                <button>Increment</button>
+                <button>Decrement</button>
+                <button>Neutral</button>
+            </div>
         );
     }
 }
