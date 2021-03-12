@@ -10,9 +10,9 @@ class Main  extends Component {
             <div>
                 <h1>React Counter</h1>
                 <h1>0</h1>
-                <button>Increment</button>
-                <button>Decrement</button>
-                <button>Neutral</button>
+                <button className='btn btn-primary'>Increment</button>
+                <button className='btn btn-info'>Decrement</button>
+                <button className='btn btn-bg-secondary'>Neutral</button>
             </div>
         );
     }
