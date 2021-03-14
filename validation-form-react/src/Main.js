@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Main() {
     return (
-        <dv>
+        <div>
             <div className="row justify-content-center">
-                <div className="col-md-6">
+                <div className="col-md-5">
                     <h1>Validation Form</h1>
                     
                     <input type="text" placeholder="username" className="form-control" />
@@ -14,6 +14,6 @@ export default function Main() {
                     <button className="btn btn-success">SUBMIT</button>
                 </div>
             </div>
-        </dv>
+        </div>
     )
 }
