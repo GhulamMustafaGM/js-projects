@@ -3,7 +3,17 @@ import React from 'react';
 export default function Main() {
     return (
         <dv>
-            <h1>This is main component</h1>
+            <div className="row justify-content-center">
+                <div className="col-md-6">
+                    <h1>Validation Form</h1>
+                    
+                    <input type="text" placeholder="username" className="form-control" />
+                    <input type="text" placeholder="email" className="form-control" />
+                    <input type="text" placeholder="password" className="form-control" />
+                    <input type="text" placeholder="confirm password" className="form-control" />
+                    <button className="btn btn-success">SUBMIT</button>
+                </div>
+            </div>
         </dv>
     )
 }
