@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <div>
+        <div className='maindiv'>
 
             <div>
                 <button><i class="fas fa-bars"></i></button>

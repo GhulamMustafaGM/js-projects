@@ -18,6 +18,11 @@ button{
   float: left;
   margin: 10px;
 }
+.maindiv{
+  background-image: linear-gradient(135, #667eea 0%, #764ba2 100%);
+  height: 100vh;
+}
+
 li{
   list-style-type: none;
 }
