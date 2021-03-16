@@ -2,11 +2,11 @@ import React, {useState} from 'react';
 
 export default function Navbar() {
     const[navstatus, setnavstatus]=useState(0)
-    const[divwidth, setdivwidth]=useState('')
+    const[divwidth, setdivwidth]=useState('0px')
     
     function opennav()
     {
-        if(navstatus==0)
+        if(navstatus===0)
         {
             setdivwidth('100%')
             setnavstatus(1)
