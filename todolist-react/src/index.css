@@ -14,4 +14,23 @@ code {
     monospace;
 }
 
+.col-md-5 {
+  margin-top: 100px;
+}
+
+h1 {
+  font-weight: bold !important;
+}
+
+input{
+  border: 2px solid black !important;
+  display: inline !important;
+  width: 70% !important;
+}
+
+button{
+  margin-left: 20px !important;
+}
+
+
 
