@@ -17,4 +17,14 @@ function addtolist()
     tododiv.appendChild(newtodoitem)
 }
 
-var 
+var tododiv = document.getElementById('mytodo')
+tododiv.addEventListener('click', deleteitem)
+
+function deleteitem(e)
+{
+    const element = e.target
+    if(element.classList[0]=='far')
+    {
+        element.parentElement.remove()
+    }
+}
