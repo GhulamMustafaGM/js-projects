@@ -1,6 +1,7 @@
 body {
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
+
 .col-md-6 {
     border: 7px solid black;
     margin-top: 150px !important;
@@ -11,7 +12,8 @@ button {
     margin: 20px !important;
     border: 2px solid black;
 }
-h1{
+
+h1 {
     font-weight: bolder !important;
     margin: 20px !important;
 }
