@@ -6,18 +6,19 @@ body {
     margin-top: 150px !important;
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
-input[type=button]
-{
+
+input[type=button] {
     width: 100%;
     background-color: blue;
     color: white;
     font-weight: bolder;
     border: solid black;
 }
-input[type=text]
-{
+
+input[type=text] {
     width: 100%;
 }
+
 h1 {
     font-weight: bolder !important;
     margin-top: 15px;
