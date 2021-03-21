@@ -7,5 +7,18 @@ img {
 }
 
 p {
-    
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#navbar {
+    background-color: rgb(32, 31, 31);
+}
+
+li {
+    color: white;
+}
+
+#nav-elements {
+    text-align: center;
 }
