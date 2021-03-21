@@ -17,6 +17,9 @@ p {
 
 li {
     color: white;
+    list-style-type: none;
+    display: inline;
+    margin-bottom: 15px;
 }
 
 #nav-elements {
