@@ -11,6 +11,10 @@ app.get('/services', (req, res) => {
     res.send('This is data from backend which is written in node javascript application');
 });
 
+app.post('/login', (req, res)=>{
+
+});
+
 app.listen(5000, () => {
     console.log(`Server started on port`);
 });
