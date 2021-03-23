@@ -4,7 +4,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send('This is homepage')
+    res.send('This is home page in node javascript')
 });
 
 app.get('/services', (req, res) => {
