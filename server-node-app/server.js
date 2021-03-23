@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/services', (req, res) => {
-    res.send('This services page');
+    res.send('This is data from backend which is written in node javascript application');
 });
 
 app.listen(5000, () => {
